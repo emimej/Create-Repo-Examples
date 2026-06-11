@@ -1,0 +1,60 @@
+/* ===== GENERAL PAGE STYLING ===== */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+}
+
+/* ===== HEADER STYLING ===== */
+header {
+    text-align: center;
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+}
+
+/* ===== NAVIGATION MENU ===== */
+nav ul {
+    list-style-type: none; /* removes bullets */
+    padding: 0;
+}
+
+/* makes menu horizontal */
+nav ul li {
+    display: inline;
+    margin: 10px;
+}
+
+/* styles links */
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* hover effect */
+nav ul li a:hover {
+    color: yellow;
+}
+
+/* ===== MAIN SECTIONS ===== */
+main {
+    padding: 20px;
+}
+
+section {
+    background-color: white;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px gray;
+}
+
+/* ===== FOOTER ===== */
+footer {
+    text-align: center;
+    font-size: 0.8em;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
