@@ -58,3 +58,43 @@ footer {
     color: white;
     padding: 10px;
 }
+/* ===== NAVIGATION TRANSITION ===== */
+nav ul li a {
+    padding: 5px;
+    transition: background-color 0.3s ease;
+}
+
+/* improved hover effect */
+nav ul li a:hover {
+    background-color: #333;
+    color: white;
+}
+
+/* ===== SECTION HOVER (ZOOM EFFECT) ===== */
+section {
+    transition: transform 0.3s ease;
+}
+
+/* zoom effect */
+section:hover {
+    transform: scale(1.02);
+}
+
+/* ===== TABLE STYLING ===== */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+/* header row color */
+th {
+    background-color: #4CAF50;
+    color: white;
+}
